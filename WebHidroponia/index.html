@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+
+    <title> Hidroponia</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+
+
+        <div class="container-fluid">
+            <h1>Hidr<i class="bi bi-flower1" width="50"></i>plants</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#sobre-mi">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tecnologias">Tecnologias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#integrantes">Integrantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <h1>Bienvenido a Hidroplants</h1>
+            <h2>Tu huerta inteligente</h2>
+        </div>
+    </section>
+
+    <!-- Que es un hidro -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">¿Que es una Hidroponia?</h2>
+            <p class="seccion-texto">La "Hidroponía inteligente" es un diseño que ofrece ahorro de agua, productos
+                saludables y la independencia de los factores naturales. Este diseño permite cultivar alimentos en áreas
+                con poco o nada de espacio, luz y tierra, de manera productiva y amigable con el ambiente.</p>
+        </div>
+    </section>
+
+
+    <section id="tecnologias" class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Desarrollo  -->
+                <h2 class="seccion-titulo">Tecnologias utilizadas</h2>
+
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Software</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-success">HTML</span>
+                        <span class="badge text-bg-success">CSS</span>
+                        <span class="badge text-bg-success">JavaScript</span>
+                        <span class="badge text-bg-success">Bootstrap</span>
+                        <span class="badge text-bg-success">C++</span>
+
+                    </div>
+                </div>
+                <!-- Diseño -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-boxes"></i>
+                    <p class="experiencia-titulo">Diseño</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-success">Kicad 7</span>
+                        <span class="badge text-bg-success">Fusion 360°</span>
+                    </div>
+                </div>
+                <!-- Hardware -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-motherboard"></i>
+                    <p class="experiencia-titulo">Hardware</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-success">Esp-32</span>
+                        <span class="badge text-bg-success">Modulos Reles</span>
+                        <span class="badge text-bg-success">Pantalla de monitoreo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Carrusel -->
+    <div id="integrantes">
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+                <h2>Integrantes del proyecto</h2>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <div class="container">
+
+                        <img class="testimonio-imagen rounded-circle" src="imagenes/freelans.jpg.svg">
+                        <p class="testimonio-texto">Encargado del Software.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Cervio Joaquin</p>
+                            <p class="cargo">Desarrolador Web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="imagenes/integrante1.jpg"
+                            alt="Foto de Lucas">
+                        <p class="testimonio-texto"> Encargado de la Mano de obra(estructura).</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Lucas</p>
+                            <p class="cargo">Tecnico Electronico</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="imagenes/integrante2.jpg"
+                            alt="Foto de Leonardo">
+                        <p class="testimonio-texto">Encargado de el diseño de la PCB.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Leandro</p>
+                            <p class="cargo">Tecnico Electronico</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="testimonio-imagen rounded-circle" src="imagenes/integrante3.jpg"
+                            alt="Foto de Dante">
+                        <p class="testimonio-texto">Encargado de diseño 3D.</p>
+                        <div class="testimonio-info">
+                            <p class="cliente">Dante Figueroa</p>
+                            <p class="cargo">Tecnico Electronico</p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+            </section>
+        </div>
+        <!-- Pie de pagina (footer) -->
+        <div id="contacto">
+            <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+                <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+                    <a href="https://github.com/Joa018?tab=repositories" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://mail.google.com/mail/u/3/#inbox" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </div>
+                <div class="derechos-de-autor">Creado por Cervio Joaquin (2023) &#169;</div>
+            </footer>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
